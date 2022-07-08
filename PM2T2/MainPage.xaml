@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2T2.MainPage"
+    BackgroundImageSource="fon.jpg">
+
+    <StackLayout>
+        <Label Text="Ejercicio 2.2"  FontSize="Title" TextColor="Black" HorizontalOptions="Center"/>
+        <Button Text="Agregar Firmas" Clicked="AgregarLista_Clicked"/>
+        <Button Text="Mostrar listas guardadas" Clicked="Verlista_Clicked"/>
+
+        <Label Text="Ejercicio desarrollado por Delbert Lira" TextColor="Black" FontSize="Micro"/>
+
+    </StackLayout>
+
+</ContentPage>
