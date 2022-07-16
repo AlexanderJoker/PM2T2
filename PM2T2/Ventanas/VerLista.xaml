@@ -21,7 +21,7 @@
                                 <ColumnDefinition Width="*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
                             <Label Text="{Binding codigo}" Grid.Row="0" Grid.Column="0" TextColor="Black"></Label>
-                            <Label x:Name="txtName" Text="{Binding nombre}" Grid.Row="1" Grid.Column="1" TextColor="Black" Padding="10"></Label>
+                            <Label x:Name="txtName" Text="{Binding nombre}" Grid.Row="0" Grid.Column="1" TextColor="Black"></Label>
                             <Label Text="{Binding descripcion}" Grid.Row="0" Grid.Column="2" TextColor="Black"></Label>
                             <Label x:Name="imageCodeText" Text="{Binding codigoimagen}" Grid.Row="3" Grid.Column="0" TextColor="Black" IsVisible="false"></Label>
                         </Grid>
